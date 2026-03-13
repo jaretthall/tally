@@ -6,6 +6,9 @@ export type DenominationCount = Record<string, number>;
 export type SessionStatus = "open" | "counting" | "closed";
 
 export type TransactionType =
+  | "cash_in"
+  | "cash_out"
+  // Legacy types (kept for existing data compatibility)
   | "copay"
   | "payment"
   | "cash_drop"

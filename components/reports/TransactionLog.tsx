@@ -7,6 +7,9 @@ import type { DrawerSession, Transaction } from "@/types";
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 
 const TYPE_LABELS: Record<string, { label: string; color: string }> = {
+  cash_in:    { label: "Cash In",  color: "bg-green-100 text-green-800" },
+  cash_out:   { label: "Cash Out", color: "bg-red-100 text-red-800" },
+  // Legacy labels for historical data
   copay:      { label: "Copay",    color: "bg-blue-100 text-blue-800" },
   payment:    { label: "Payment",  color: "bg-blue-100 text-blue-800" },
   cash_drop:  { label: "Cash Drop",color: "bg-orange-100 text-orange-800" },

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm create:*)",
+      "Bash(cp -r \"c:/Users/JarettHall/Programming/tally-app/.\" \"c:/Users/JarettHall/Programming/Tally/\")",
+      "Bash(rm -rf \"c:/Users/JarettHall/Programming/tally-app\")"
+    ]
+  }
+}

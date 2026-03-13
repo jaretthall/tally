@@ -1,1 +1,19 @@
-node_modules
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Environment — NEVER commit. Contains the access code.
+.env.local
+.env*.local
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
